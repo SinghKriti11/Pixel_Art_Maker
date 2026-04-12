@@ -117,3 +117,10 @@ window.onload = () => {
   gridWidth.value = 0;
   gridHeight.value = 0;
 };
+
+const themeToggle = document.getElementById("theme-toggle");
+
+if (localStorage.getItem("theme") === "dark") {
+  document.body.classList.add("dark");
+  themeToggle.innerText = "☀️ Light";
+}
