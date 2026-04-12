@@ -23,3 +23,6 @@ let events = {
 };
 
 let deviceType = "";
+
+let draw = false;
+let erase = false;
