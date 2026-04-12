@@ -94,3 +94,7 @@ function checker(elementId) {
 clearGridButton.addEventListener("click", () => {
   container.innerHTML = "";
 });
+
+eraseBtn.addEventListener("click", () => {
+  erase = true;
+});
