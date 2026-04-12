@@ -21,3 +21,5 @@ let events = {
     up: "touchend",
   },
 };
+
+let deviceType = "";
