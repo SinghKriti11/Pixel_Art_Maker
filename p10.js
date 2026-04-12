@@ -98,3 +98,7 @@ clearGridButton.addEventListener("click", () => {
 eraseBtn.addEventListener("click", () => {
   erase = true;
 });
+
+paintBtn.addEventListener("click", () => {
+  erase = false;
+});
