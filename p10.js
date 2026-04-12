@@ -102,3 +102,8 @@ eraseBtn.addEventListener("click", () => {
 paintBtn.addEventListener("click", () => {
   erase = false;
 });
+
+gridWidth.addEventListener("input", () => {
+  widthValue.innerHTML =
+    gridWidth.value < 9 ? `0${gridWidth.value}` : gridWidth.value;
+});
