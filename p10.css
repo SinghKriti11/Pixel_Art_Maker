@@ -52,3 +52,7 @@ button {
   padding: 5px;
   transition: 0.2s ease;
 }
+
+button:hover {
+  background-color: #357abd;
+}
