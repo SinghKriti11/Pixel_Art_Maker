@@ -40,7 +40,6 @@ const isTouchDevice = () => {
 
 isTouchDevice();
 
-//Create Grid
 gridButton.addEventListener("click", () => {
   container.innerHTML = "";
   let count = 0;
@@ -61,7 +60,7 @@ gridButton.addEventListener("click", () => {
           col.style.backgroundColor = colorButton.value;
         }
       });
-      
+
       col.addEventListener(events[deviceType].move, (e) => {
         let elementId = document.elementFromPoint(
           !isTouchDevice() ? e.clientX : e.touches[0].clientX,
@@ -77,7 +76,6 @@ gridButton.addEventListener("click", () => {
     container.appendChild(div);
   }
 });
-
 function checker(elementId) {
   let gridColumns = document.querySelectorAll(".gridCol");
   gridColumns.forEach((element) => {
@@ -91,6 +89,7 @@ function checker(elementId) {
   });
 }
 
+
 clearGridButton.addEventListener("click", () => {
   container.innerHTML = "";
 });
@@ -99,9 +98,11 @@ eraseBtn.addEventListener("click", () => {
   erase = true;
 });
 
+
 paintBtn.addEventListener("click", () => {
   erase = false;
 });
+
 
 gridWidth.addEventListener("input", () => {
   widthValue.innerHTML =
