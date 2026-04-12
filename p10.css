@@ -14,3 +14,10 @@ body {
   background: linear-gradient(135deg, #b2b7bf, #8eb3cc, #5a8099);
   transition: background 0.4s ease;
 }
+
+.wrapper {
+  background-color: #ffffff;
+  width: 80vmin;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
