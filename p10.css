@@ -4,3 +4,7 @@
   box-sizing: border-box;
   font-family: "Roboto Mono", monospace;
 }
+
+html, body {
+  height: 100%;
+}
