@@ -94,3 +94,7 @@ input[type="color"]::-moz-color-swatch {
     width: 0.8em;
   }
 }
+
+body.dark {
+  background: linear-gradient(135deg, #141e30, #243b55);
+}
