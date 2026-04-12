@@ -87,3 +87,10 @@ input[type="color"]::-moz-color-swatch {
 .gridRow {
   display: flex;
 }
+
+@media only screen and (max-width: 768px) {
+  .gridCol {
+    height: 0.8em;
+    width: 0.8em;
+  }
+}
