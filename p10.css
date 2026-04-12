@@ -57,3 +57,9 @@ button:hover {
   background-color: #357abd;
 }
 
+input[type="color"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+}
