@@ -124,3 +124,15 @@ if (localStorage.getItem("theme") === "dark") {
   document.body.classList.add("dark");
   themeToggle.innerText = "☀️ Light";
 }
+
+themeToggle.addEventListener("click", () => {
+  document.body.classList.toggle("dark");
+
+  if (document.body.classList.contains("dark")) {
+    themeToggle.innerText = "☀️ Light";
+    localStorage.setItem("theme", "dark");
+  } else {
+    themeToggle.innerText = "🌙 Dark";
+    localStorage.setItem("theme", "light");
+  }
+});
