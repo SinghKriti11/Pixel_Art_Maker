@@ -117,3 +117,7 @@ body.dark button:hover {
 body.dark input[type="color"] {
   border: 2px solid #fff;
 }
+
+body.dark .gridCol {
+  border: 1px solid #444;
+}
