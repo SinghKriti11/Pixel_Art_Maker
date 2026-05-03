@@ -6,7 +6,6 @@ An interactive **Pixel Art Generator** built using **HTML, CSS, and JavaScript**
 
 ## 🚀 Features
 
-
 - 🎛️ Adjustable grid size (width & height)
 - 🎨 Custom color picker
 - ✏️ Paint mode for drawing
